@@ -50,6 +50,7 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    transition: 2s;
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -137,11 +138,21 @@
 }
 
 @keyframes rotate {
-  /* 0% {transform: rotate()} */
-  /* 50% {transform: rotate(180deg)} */
   100% {transform: rotate(360deg)}
-
 }
+
+
+@keyframes spinalittlebit {
+  0% {transform: rotate(0)}
+  90% {transform: rotate(315deg)}
+  100% {transform: rotate(0)}
+}
+
+.ex-11-icon:hover{
+  animation: spinalittlebit 2s linear;
+}
+
+
 
 
 
