@@ -93,7 +93,7 @@
 }
 
 .ex-4-square:hover{
-  opacity: 0;
+  opacity: 0; 
   transition: 2s;
 }
 
