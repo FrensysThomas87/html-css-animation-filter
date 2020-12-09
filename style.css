@@ -40,6 +40,13 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotate;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+
+
 }
 .ex-11-icon {
     font-size: 60px;
@@ -128,6 +135,14 @@
   transform: scale(1.5);
   filter: grayscale(.6) sepia(.5);
 }
+
+@keyframes rotate {
+  /* 0% {transform: rotate()} */
+  /* 50% {transform: rotate(180deg)} */
+  100% {transform: rotate(360deg)}
+
+}
+
 
 
 /*End Esercizio*/
