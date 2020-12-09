@@ -84,4 +84,9 @@
   width: 100%;
   transition: 3s ease;
 }
+
+.ex-3-square:hover{
+  border-radius: 50%;
+  transition: 1s;
+}
 /*End Esercizio*/
